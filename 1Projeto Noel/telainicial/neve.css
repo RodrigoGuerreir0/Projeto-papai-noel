@@ -1,0 +1,169 @@
+* {
+
+    margin: 0;
+    padding: 0;
+}
+
+body {
+  overflow: hidden;
+    background-image: url(fundopagmain.jpg);
+    background-size: 86.4%;
+}
+
+
+.botao {
+  position: absolute;
+  width: 09%;
+  height: 06.4%;
+  left: 45.5%;
+  top: 65%;
+ 
+}
+
+.gifppn{ 
+  left: -100%;
+  width: 480px;
+  animation: voar 18s linear ;
+  height: 160px;
+  position: absolute;
+  background-image: url(santagif.gif);
+  background-position: cover;
+  background-repeat: no-repeat;
+}
+
+@keyframes voar {
+  0% {
+    opacity: 65%;
+    left: 100%;
+    top: 2%;
+  }
+  
+  50%{
+    opacity: 100%;
+    top: 30%;
+  }
+ 
+
+  100%{
+    left: -40%;
+    top: 5%;
+    opacity: 0%;
+  }
+
+}
+.fitas {
+  position: absolute;
+  background-image: url(fitas.png);
+  background-size: cover;
+  width: 100%;
+  background-position-y: 5%;
+  height: 45%;
+
+
+}
+
+.bkgd {
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  background-repeat: no-repeat;
+  opacity: 70%;
+  width: 100%;
+  height: 100%;
+  background-image: url(aaaaa.jpg);
+  background-size: 310px;
+  border-radius: 300px;
+  mix-blend-mode: hard-light;
+}
+.texto {
+  position: relative;
+  top: 75%;
+  text-align: center;
+  justify-content: center;
+  font-family: Arial, 'Helvetica', sans-serif;
+  font-size: 25px;
+  font-weight: bold; 
+  color: white;
+  z-index: 999;
+  user-select: none;
+  font-variant: small-caps;
+}
+
+.botaoenter {
+  width: 100%;
+  height: 100%;
+  background: none;
+  border: transparent;
+  
+}
+
+
+
+@font-face { 
+	font-family: Androgyne; 
+	src: url('Androgyne_TB.otf'); 
+} 
+
+.container{
+  width: 700px;
+  margin: 0 auto;
+}
+.logo{
+  text-align: center;
+}
+.logo a{
+	color:#fff;
+}
+
+.logocl{
+
+  background-image: url(claustock.png);
+  background-size: 131%;
+  background-position: 48%;
+  background-position-y: 55%;
+  width: 25%;
+  height: 52%;
+  position: absolute;
+  top: 10%;
+  left: 37.5%;
+  border-radius: 90%;
+  box-shadow: 5px 5px 5px 1px rgba(0, 0, 0, 0.6);
+}
+
+.bodysnow{
+
+    font-family: Androgyne;
+    background-image: url('s1.png'), url('s2.png'); /*url('s1.png'), url('s2.png'), url ('s3.png'); */
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    -webkit-animation: snow 10s linear infinite;
+    -moz-animation: snow 10s linear infinite;
+    -ms-animation: snow 10s linear infinite;
+    animation: snow 10s linear infinite;
+    
+    }
+    @keyframes snow {
+      0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+      50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
+      100% {background-position: 500px 1000px, 200px 400px, -100px 300px;}
+    }
+    @-moz-keyframes snow {
+      0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+      50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
+      100% {background-position: 400px 1000px, 200px 400px, 100px 300px;}
+    }
+    @-webkit-keyframes snow {
+      0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+      50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
+      100% {background-position: 500px 1000px, 200px 400px, -100px 300px;}
+    }
+    @-ms-keyframes snow {
+      0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+      50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
+      100% {background-position: 500px 1000px, 200px 400px, -100px 300px;}
+    }
+
+    .botao:active {
+      transform: scale(1.10);
+      }

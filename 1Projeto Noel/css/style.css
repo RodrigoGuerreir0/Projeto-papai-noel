@@ -1,0 +1,197 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f8f8;
+  background-image: linear-gradient(to right, rgb(124, 15, 15), red,  rgb(124, 15, 15));
+  background-size: cover;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+  background-color: #fff;
+  /* background-color: rgb(226, 106, 106);  */
+
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  overflow: hidden;
+  margin-top: 20px;
+  position: relative;
+}
+
+.logo-container {
+  text-align: center;
+  padding: 20px;
+  background-color: rgb(69, 160, 73);
+}
+
+.navbar{
+  font-size: 20px;
+  /* text-transform: uppercase; */
+}
+
+.logo-container img {
+  max-width: 100%;
+  height: auto;
+}
+
+body.dark-bg {
+  background-color: #333;
+  color: #fff;
+}
+
+body.image-bg {
+  background-image: url('caminho/para/sua/imagem.jpg');
+  background-size: cover;
+  color: #fff;
+}
+
+.tabs {
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin: 0;
+  height: 60px;
+  padding: 0;
+  background-color: #45a049;
+  color: #fff;
+}
+
+.tabs li {
+  flex: 1;
+  text-align: center;
+  padding: 15px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.tabs li:hover {
+  background-color: #4CAF50;
+  color: red;;
+}
+
+.content {
+  display: none;
+  padding: 20px;
+}
+
+#estoque,
+#pedidos,
+#pedir {
+  display: block;
+}
+
+h2 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+form {
+  max-width: 300px;
+  margin: auto;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+.estoque-list,
+.pedidos-list {
+  padding-left: 0;
+}
+
+.pedido-item {
+  border-bottom: 2px solid red;
+  padding: 15px;
+}
+
+.pedido-info {
+  margin-top: 10px;
+}
+
+
+.estoque-list li {
+  border-bottom: 5px solid red;
+  padding: 10px 0;
+}
+
+.estoque-list strong {
+  font-weight: bold;
+}
+
+.estoque-list .estoque-quantidade {
+  margin-left: 10px;
+  color: #555;
+}
+
+.divisorias {
+  border: 2px transparent solid;
+  height: 830px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 40px;
+}
+
+.naomexa {
+  border: 2px transparent solid;
+  width: 900px;
+  height: 830px;
+}
+
+.arvorenatal {
+  border: 2px transparent solid;
+  width: 450px;
+  height: 830px;
+}
+
+
+.espaco1 {
+  border: 2px transparent solid;
+  height: 315px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.arvores {
+  padding-top: 50px;
+  height: 450px;
+}
+
+.logo-empresa{
+  height: 400px;
+  width: 400px;
+}

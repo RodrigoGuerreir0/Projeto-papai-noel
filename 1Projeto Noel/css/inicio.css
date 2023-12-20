@@ -1,0 +1,174 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    /* background-image: url(../img/aaa.jpg); */
+    background-image: linear-gradient(to right, rgb(124, 15, 15), red,  rgb(124, 15, 15));
+
+    color: #fff;
+  }
+  
+  header {
+    background-color: #45a049;
+    padding: 20px 10px;
+    text-align: center;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  nav {
+    background-color: #45a049;
+    padding: 10px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  }
+
+  .logo{
+    color: #333;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin: 0 15px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    font-size: 16px;
+    transition: color 0.3s ease;
+  }
+  
+  nav a:hover {
+    color: #ff6347;
+  }
+  
+  main {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  section {
+    margin-bottom: 30px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); 
+  }
+  
+  h2, h3 {
+    color: #333; 
+  }
+  
+  footer {
+    margin-top: 20px;
+    text-align: center;
+    color: #eee;
+    background-color: #45a049;
+    padding: 20px;
+  }
+  
+ 
+  section:hover {
+    transform: scale(1.02);
+    transition: transform 0.3s ease;
+  }
+  
+  .receita{
+    color: #333;
+  }
+
+  .sobre{
+    color: #333;
+  }
+
+  .frases{
+    color: #333;
+  }
+
+  #contato {
+    margin-top: 30px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: auto;
+  }
+  
+  label {
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+  input,
+  textarea {
+    margin-top: 5px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  .mensagem-sucesso {
+    display: none;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #dff0d8;
+    color: #3c763d;
+    border: 1px solid #d6e9c6;
+    border-radius: 4px;
+  }
+  .social-media{
+    background-color: #45a049;
+
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+    display: flex;
+  }
+
+  .contato{
+    color: #333;
+  }
+
+  .logoinsta{
+    width: 50px;
+    height: 50px;
+  }
+
+  .logoface{
+    width: 50px;
+    height: 50px;
+  }
+
+  .logotwitter{
+    width: 50px;
+    height: 50px;
+  }
+
+  .desenvolvedres{
+    color: white;
+  }

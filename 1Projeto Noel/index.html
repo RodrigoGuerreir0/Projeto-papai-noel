@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./css/style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <title>Papai Noel do Polo Norte</title>
+</head>
+
+<body>
+  <div class="navbar">
+    <ul class="tabs">
+      <li class="navbar" onclick="changeTab('estoque')">Estoque</li>
+      <li class="navbar" onclick="changeTab('pedidos')">Pedidos</li>
+      <li class="navbar" onclick="changeTab('pedir')">Fazer Pedido</li>
+    </ul>
+  </div>
+  <div class="divisorias">
+    <div class="arvorenatal">
+      <div class="espaco1"></div>
+      <div class="espaco2"> <img class="arvores" src="./img/arvorenatal2.png" alt="arvore de natal"></div>
+    </div>
+    <div class="naomexa">
+      <div class="container">
+        <div id="estoque" class="content">
+          <h2>Estoque do Papai Noel</h2>
+          <ul id="listaEstoque" class="estoque-list"></ul>
+        </div>
+
+        <div id="pedidos" class="content">
+          <h2>Pedidos das Crianças</h2>
+          <ul id="listaPedidos" class="pedidos-list"></ul>
+          <button onclick="enviarPedidos()">Enviar Pedidos</button>
+        </div>
+
+        <div id="pedir" class="content">
+          <h2>Faça Seu Pedido</h2>
+          <form onsubmit="submitPedido(event)">
+            <label for="crianca">Nome da Criança:</label>
+            <input type="text" id="crianca" placeholder="Digite o nome" required>
+            <label for="brinquedo">Brinquedo desejado:</label>
+            <input type="text" id="brinquedo" placeholder="Digite o brinquedo desejado" required>
+            <button type="submit">Enviar Pedido</button>
+          </form>
+        </div>
+
+
+      </div>
+    </div>
+    <div class="arvorenatal">
+      <div class="espaco1">
+      </div>
+      <div class="espaco2"> <img class="arvores" src="./img/arvorenatal2.png" alt="arvore de natal"></div>
+    </div>
+
+  </div>
+
+  <script src="./js/script.js"></script>
+</body>
+
+</html>
